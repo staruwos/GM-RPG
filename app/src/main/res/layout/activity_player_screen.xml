@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffcc5d00"
+    android:id="@+id/viewFlipper"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/charImage"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:src="@android:color/holo_green_dark" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/basicDesc"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:src="@android:color/holo_purple" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/stats1"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:src="@android:color/holo_green_light" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/stats2"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:src="@android:color/holo_red_dark" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_height="fill_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:src="@android:color/holo_orange_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:text="BACK"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/buttonBack" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:src="@android:color/holo_blue_bright"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+
